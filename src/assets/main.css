@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --mainColor: #303030;
+    --link: #f1f1f1;
+    --linkHover: #9d9d9d;
+    --darkButtonHover: #4b4b4b;
+    --lightButtonHover: #d9d9d9;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--darkButtonHover);
+}
